@@ -1,0 +1,14 @@
+/Users/pool/ESTRUCTURA/bin/Debug/net9.0/ESTRUCTURA
+/Users/pool/ESTRUCTURA/bin/Debug/net9.0/ESTRUCTURA.deps.json
+/Users/pool/ESTRUCTURA/bin/Debug/net9.0/ESTRUCTURA.runtimeconfig.json
+/Users/pool/ESTRUCTURA/bin/Debug/net9.0/ESTRUCTURA.dll
+/Users/pool/ESTRUCTURA/bin/Debug/net9.0/ESTRUCTURA.pdb
+/Users/pool/ESTRUCTURA/obj/Debug/net9.0/ESTRUCTURA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pool/ESTRUCTURA/obj/Debug/net9.0/ESTRUCTURA.AssemblyInfoInputs.cache
+/Users/pool/ESTRUCTURA/obj/Debug/net9.0/ESTRUCTURA.AssemblyInfo.cs
+/Users/pool/ESTRUCTURA/obj/Debug/net9.0/ESTRUCTURA.csproj.CoreCompileInputs.cache
+/Users/pool/ESTRUCTURA/obj/Debug/net9.0/ESTRUCTURA.dll
+/Users/pool/ESTRUCTURA/obj/Debug/net9.0/refint/ESTRUCTURA.dll
+/Users/pool/ESTRUCTURA/obj/Debug/net9.0/ESTRUCTURA.pdb
+/Users/pool/ESTRUCTURA/obj/Debug/net9.0/ESTRUCTURA.genruntimeconfig.cache
+/Users/pool/ESTRUCTURA/obj/Debug/net9.0/ref/ESTRUCTURA.dll
