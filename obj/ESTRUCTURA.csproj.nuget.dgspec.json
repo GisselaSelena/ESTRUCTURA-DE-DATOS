@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pool/ESTRUCTURA/ESTRUCTURA.csproj": {}
+    "/Users/pool/Documents/GitHub/ESTRUCTURA-DE-DATOS/ESTRUCTURA.csproj": {}
   },
   "projects": {
-    "/Users/pool/ESTRUCTURA/ESTRUCTURA.csproj": {
+    "/Users/pool/Documents/GitHub/ESTRUCTURA-DE-DATOS/ESTRUCTURA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pool/ESTRUCTURA/ESTRUCTURA.csproj",
+        "projectUniqueName": "/Users/pool/Documents/GitHub/ESTRUCTURA-DE-DATOS/ESTRUCTURA.csproj",
         "projectName": "ESTRUCTURA",
-        "projectPath": "/Users/pool/ESTRUCTURA/ESTRUCTURA.csproj",
+        "projectPath": "/Users/pool/Documents/GitHub/ESTRUCTURA-DE-DATOS/ESTRUCTURA.csproj",
         "packagesPath": "/Users/pool/.nuget/packages/",
-        "outputPath": "/Users/pool/ESTRUCTURA/obj/",
+        "outputPath": "/Users/pool/Documents/GitHub/ESTRUCTURA-DE-DATOS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pool/.nuget/NuGet/NuGet.Config"

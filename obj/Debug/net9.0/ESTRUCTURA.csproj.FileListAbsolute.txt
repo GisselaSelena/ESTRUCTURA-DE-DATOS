@@ -12,3 +12,8 @@
 /Users/pool/ESTRUCTURA/obj/Debug/net9.0/ESTRUCTURA.pdb
 /Users/pool/ESTRUCTURA/obj/Debug/net9.0/ESTRUCTURA.genruntimeconfig.cache
 /Users/pool/ESTRUCTURA/obj/Debug/net9.0/ref/ESTRUCTURA.dll
+/Users/pool/Documents/GitHub/ESTRUCTURA-DE-DATOS/obj/Debug/net9.0/ESTRUCTURA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pool/Documents/GitHub/ESTRUCTURA-DE-DATOS/obj/Debug/net9.0/ESTRUCTURA.AssemblyInfoInputs.cache
+/Users/pool/Documents/GitHub/ESTRUCTURA-DE-DATOS/obj/Debug/net9.0/ESTRUCTURA.AssemblyInfo.cs
+/Users/pool/Documents/GitHub/ESTRUCTURA-DE-DATOS/obj/Debug/net9.0/ESTRUCTURA.csproj.CoreCompileInputs.cache
+/Users/pool/Documents/GitHub/ESTRUCTURA-DE-DATOS/obj/Debug/net9.0/ESTRUCTURA.sourcelink.json
