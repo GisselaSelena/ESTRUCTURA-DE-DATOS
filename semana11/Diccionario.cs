@@ -3,24 +3,31 @@ using System.Collections.Generic;
 
 namespace semana11
 {
-    // Diccionario bilingüe ES <-> EN
+    /// <summary>
+    /// Clase Diccionario: almacena pares de palabras en español e inglés,
+    /// permitiendo traducir en ambos sentidos (ES->EN y EN->ES).
+    /// </summary>
     public class Diccionario
     {
-        // ES -> EN y EN -> ES (ambos sentidos)
+        // Diccionario Español → Inglés
         private readonly Dictionary<string, string> espToEng =
             new(StringComparer.OrdinalIgnoreCase);
 
+        // Diccionario Inglés → Español
         private readonly Dictionary<string, string> engToEsp =
             new(StringComparer.OrdinalIgnoreCase);
 
+        /// <summary>
+        /// Constructor: inicializa el diccionario con al menos 10 palabras base.
+        /// </summary>
         public Diccionario()
         {
-            // Palabras base sugeridas
+            // Palabras sugeridas en el enunciado
             AgregarPalabra("tiempo", "time");
             AgregarPalabra("persona", "person");
             AgregarPalabra("año", "year");
             AgregarPalabra("camino", "way");
-            AgregarPalabra("forma", "way");      // sinónimo útil
+            AgregarPalabra("forma", "way");   // sinónimo
             AgregarPalabra("día", "day");
             AgregarPalabra("cosa", "thing");
             AgregarPalabra("hombre", "man");
@@ -43,7 +50,10 @@ namespace semana11
             AgregarPalabra("compañía", "company");
         }
 
-        // Agrega en ambos sentidos (ES->EN y EN->ES). Devuelve false si ya existía la clave ES.
+        /// <summary>
+        /// Agrega una nueva palabra al diccionario en ambos sentidos.
+        /// Devuelve false si ya existía en español.
+        /// </summary>
         public bool AgregarPalabra(string esp, string eng)
         {
             if (string.IsNullOrWhiteSpace(esp) || string.IsNullOrWhiteSpace(eng))
@@ -52,31 +62,34 @@ namespace semana11
             esp = esp.Trim();
             eng = eng.Trim();
 
-            // Evita duplicados en ES
             if (espToEng.ContainsKey(esp))
-                return false;
+                return false; // ya existe en español
 
             espToEng[esp] = eng;
             engToEsp[eng] = esp;
             return true;
         }
 
-        // Traduce palabra en cualquiera de los dos sentidos. Devuelve null si no existe.
+        /// <summary>
+        /// Traduce una palabra en cualquier dirección.
+        /// Devuelve null si no existe en el diccionario.
+        /// </summary>
         public string? TraducirPalabra(string palabra)
         {
             if (string.IsNullOrWhiteSpace(palabra))
                 return null;
 
-            // Buscamos ignorando mayúsculas/minúsculas
             var key = palabra;
 
+            // Español → Inglés
             if (espToEng.TryGetValue(key, out var en))
                 return AjustarCapitalizacion(palabra, en);
 
+            // Inglés → Español
             if (engToEsp.TryGetValue(key, out var es))
                 return AjustarCapitalizacion(palabra, es);
 
-            // Intento plural simple en inglés (eyes -> eye, hands -> hand)
+            // Caso especial: plural en inglés (ej: "eyes" → "eye")
             if (key.EndsWith("s", StringComparison.OrdinalIgnoreCase))
             {
                 var singular = key[..^1];
@@ -84,12 +97,14 @@ namespace semana11
                     return AjustarCapitalizacion(palabra, esSing);
             }
 
-            return null;
+            return null; // palabra no encontrada
         }
 
+        /// <summary>
+        /// Conserva la capitalización original al traducir.
+        /// </summary>
         private static string AjustarCapitalizacion(string original, string traduccion)
         {
-            // Si la primera letra de la original es mayúscula, capitalizamos la traducción
             return char.IsUpper(original[0])
                 ? char.ToUpper(traduccion[0]) + traduccion.Substring(1)
                 : traduccion.ToLower();

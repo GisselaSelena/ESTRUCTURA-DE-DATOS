@@ -2,15 +2,21 @@
 
 namespace semana11
 {
+    /// <summary>
+    /// Programa principal con menú interactivo.
+    /// Permite traducir frases y agregar palabras al diccionario.
+    /// </summary>
     internal class Program
     {
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
+            // Inicializamos el diccionario y el traductor
             var diccionario = new Diccionario();
             var traductor = new Traductor(diccionario);
 
+            // Bucle principal del menú
             while (true)
             {
                 Console.WriteLine("==================== MENÚ ====================");
