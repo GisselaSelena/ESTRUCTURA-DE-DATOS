@@ -1,0 +1,30 @@
+Árbol: Sistema de Archivos - Mi Computadora
+Generado: 2025-10-01 20:03:03
+
+Estructura:
+└── Documentos/
+    ├── Trabajo/
+    │   ├── Proyectos/
+    │   │   ├── ProyectoA.docx
+    │   │   ├── ProyectoB.pdf
+    │   │   └── Presentacion.pptx
+    │   ├── Reportes/
+    │   └── Clientes/
+    ├── Personal/
+    │   ├── Fotos/
+    │   │   ├── Vacaciones2024.jpg
+    │   │   └── Familia.png
+    │   ├── Videos/
+    │   └── Música/
+    ├── Universidad/
+    │   ├── Semestre8/
+    │   │   ├── EstructurasDatos.pdf
+    │   │   ├── ProyectoFinal.zip
+    │   │   └── Tareas.docx
+    │   └── Tesis/
+    │       ├── Capitulo1.docx
+    │       ├── Referencias.pdf
+    │       └── Datos.xlsx
+    └── Descargas/
+        ├── instalador.exe
+        └── documento.pdf

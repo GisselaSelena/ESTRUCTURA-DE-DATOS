@@ -1,0 +1,18 @@
+Árbol: Familia García - Tres Generaciones
+Generado: 2025-10-01 20:03:03
+
+Estructura:
+└── Abuelo Roberto García
+    ├── Carlos García
+    │   ├── María García
+    │   ├── Pedro García
+    │   │   ├── Emilia García
+    │   │   └── Mateo García
+    │   └── Sofía García
+    ├── Ana García
+    │   ├── Diego Martínez
+    │   └── Laura Martínez
+    └── Luis García
+        ├── Valentina García
+        ├── Santiago García
+        └── Isabella García

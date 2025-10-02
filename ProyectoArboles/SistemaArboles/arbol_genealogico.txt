@@ -1,0 +1,17 @@
+# Árbol Genealógico - Familia García
+ARBOL,Familia García - Tres Generaciones
+
+NODO,1,Abuelo Roberto García,RAIZ
+NODO,2,Carlos García,1
+NODO,3,Ana García,1
+NODO,4,Luis García,1
+NODO,5,María García,2
+NODO,6,Pedro García,2
+NODO,7,Sofía García,2
+NODO,8,Diego Martínez,3
+NODO,9,Laura Martínez,3
+NODO,10,Valentina García,4
+NODO,11,Santiago García,4
+NODO,12,Isabella García,4
+NODO,13,Emilia García,6
+NODO,14,Mateo García,6

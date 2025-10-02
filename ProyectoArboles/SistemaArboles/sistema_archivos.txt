@@ -1,0 +1,29 @@
+# Sistema de Archivos
+ARBOL,Sistema de Archivos - Mi Computadora
+
+NODO,1,Documentos/,RAIZ
+NODO,2,Trabajo/,1
+NODO,3,Personal/,1
+NODO,4,Universidad/,1
+NODO,5,Descargas/,1
+NODO,6,Proyectos/,2
+NODO,7,Reportes/,2
+NODO,8,Clientes/,2
+NODO,9,ProyectoA.docx,6
+NODO,10,ProyectoB.pdf,6
+NODO,11,Presentacion.pptx,6
+NODO,12,Fotos/,3
+NODO,13,Videos/,3
+NODO,14,Música/,3
+NODO,15,Vacaciones2024.jpg,12
+NODO,16,Familia.png,12
+NODO,17,Semestre8/,4
+NODO,18,Tesis/,4
+NODO,19,EstructurasDatos.pdf,17
+NODO,20,ProyectoFinal.zip,17
+NODO,21,Tareas.docx,17
+NODO,22,Capitulo1.docx,18
+NODO,23,Referencias.pdf,18
+NODO,24,Datos.xlsx,18
+NODO,25,instalador.exe,5
+NODO,26,documento.pdf,5
